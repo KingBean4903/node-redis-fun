@@ -2,8 +2,9 @@
   "name": "node-redis-fun",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
+    "dev": "tsx --watch src/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +17,7 @@
     "redlock": "5.0.0-beta.2"
   },
   "devDependencies": {
+    "dotenv": "^17.2.3",
     "typescript": "^5.9.3"
   }
 }
